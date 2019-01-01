@@ -14,6 +14,9 @@ import org.springframework.stereotype.Component;
 @Entity
 @Table
 public class Employee {
+public class Employee
+
+{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int empId;
